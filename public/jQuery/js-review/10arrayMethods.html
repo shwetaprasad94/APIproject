@@ -26,11 +26,11 @@
 	
 	<h3>Live demo</h3>
 	<script>
-		const weekend = [];
+		var weekend = [];
 		weekend.push('Sat', 'Sun'); // memorize
 		console.log(weekend);
 		
-		const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+		var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 		console.log(months.reverse());
 		
 		// export from array to string
@@ -50,10 +50,17 @@
 
 		// SOLUTION
 		// months.reverse() Correct order [Jan, Feb, Mar]
-		// months.reverse().join('') Convert to string "Jan Feb Mar"
+		// months.reverse().join('') Convert to string "Jan, Feb, Mar"
 		// months.reverse().join('</i> <i>') With advance delimiter (seperator) "Jan</i> <i>Feb</i> <i>Mar"
 		// '<i>' + months.reverse().join('</i> <i>') + '</i>' Bookend the italic elements <i>Jan</i> <i>Feb</i> <i>Mar</i>
 		console.log('<i>' + months.reverse().join('</i> <i>') + '</i>');
+
+		// todo inclass Move Jan between Apr and May
+		// SOLUTION
+		months.splice(4, 0, months[0]);
+		console.log(months);
+		months.splice(0, 1); // or shift method
+		console.log(months);
 	</script>
 </body>
 </html>

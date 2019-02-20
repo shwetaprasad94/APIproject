@@ -1,279 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:cbc="https://www.cbc.ca/rss/cbc" version="2.0">
+<rss xmlns:cbc="http://www.cbc.ca/rss/cbc" version="2.0">
   <channel>
-    <title><![CDATA[CBC | Technology News ]]></title>
-    <link>http://www.cbc.ca/technology/?cmp=rss</link>
+    <title><![CDATA[CBC | Canada News ]]></title>
+    <link>http://www.cbc.ca/canada/?cmp=rss</link>
     <description>
       <![CDATA[
       FOR PERSONAL USE ONLY
       ]]>
     </description>
     <language>en-ca</language>
-    <lastBuildDate>Wed, 14 Nov 2018 13:04:58 EST</lastBuildDate>
+    <lastBuildDate>Wed, 9 May 2018 10:50:36 EDT</lastBuildDate>
     <copyright><![CDATA[Copyright: (C) Canadian Broadcasting	Corporation,							http://www.cbc.ca/aboutcbc/discover/termsofuse.html#Rss]]></copyright>
         <docs><![CDATA[http://www.cbc.ca/rss/]]></docs>
     <image>
       <title>CBC.ca</title>
-      <url>https://www.cbc.ca/rss/image/cbc_144.gif</url>
-      <link>https://www.cbc.ca/news/?cmp=rss</link>
+      <url>http://www.cbc.ca/rss/image/cbc_144.gif</url>
+      <link>http://www.cbc.ca/news/?cmp=rss</link>
     </image>
-    <item cbc:type="story" cbc:deptid="2.634" cbc:syndicate="true">
-      <title><![CDATA[After facing near extinction, mountain gorilla population grows]]></title>
-            <link>https://www.cbc.ca/news/technology/mountain-gorilla-1.4904680?cmp=rss</link>
-      <guid isPermaLink="false">1.4904680</guid>
-      <pubDate>Wed, 14 Nov 2018 13:04:58 EST</pubDate>
-                        <author>The Associated Press</author>
-      							      <category>News/Technology &amp; Science</category>
+    <item cbc:type="story" cbc:deptid="2.641" cbc:syndicate="true">
+      <title><![CDATA[When is a reno 'finished'? Homeowners battle tax agency over confusing rebates]]></title>
+            <link>http://www.cbc.ca/news/canada/british-columbia/hst-rebates-cra-misleading-taxes-real-estate-1.4652446?cmp=rss</link>
+      <guid isPermaLink="false">1.4652446</guid>
+      <pubDate>Tue, 8 May 2018 19:14:28 EDT</pubDate>
+                        <author>Jason Proctor</author>
+      										      <category>News/Canada/British Columbia</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4905136.1542216468!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_460/mountain-gorilla-rebound.jpg' alt='Mountain Gorilla Rebound' width='460' title='This 2014 photo provided by the Dian Fossey Gorilla Fund shows a group of mountain gorillas in Rwanda&#39;s Volcanoes National Park. On Wednesday, Nov. 14, 2018, the International Union for Conservation of Nature updated the species status from critically endangered to endangered. The designation is more promising, but still precarious.' height='259' />                <p>The Switzerland-based International Union for Conservation of Nature has updated mountain gorillas' status from "critically endangered" to "endangered," a more promising, if still precarious, designation.</p>
+                        <img src='https://i.cbc.ca/1.4654081.1525821010!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_460/sean-leitenberg-hst.JPG' alt='Sean Leitenberg - HST' width='460' title='Self-styled tax crusader Sean Leitenberg claims the Canada Revenue Agency led many of his clients to believe they did not qualify for a provincial tax rebate.' height='259' />                <p>The Canada Revenue Agency is in Vancouver tax court all this week trying to stop people from cashing in on a little known rebate program.</p>
         ]]>
       </description>
     </item>
-    <item cbc:type="story" cbc:deptid="2.636" cbc:syndicate="true">
-      <title><![CDATA[NASA wants Canadian boots on the moon as first step in deep space exploration]]></title>
-            <link>https://www.cbc.ca/news/politics/nasa-canada-moon-orbit-1.4905039?cmp=rss</link>
-      <guid isPermaLink="false">1.4905039</guid>
-      <pubDate>Wed, 14 Nov 2018 12:12:10 EST</pubDate>
-                        <author>Mike Blanchfield</author>
-      							      <category>News/Politics</category>
+    <item cbc:type="story" cbc:deptid="2.659" cbc:syndicate="true">
+      <title><![CDATA[Supports for La Loche in aftermath of mass shooting inadequate, community says]]></title>
+            <link>http://www.cbc.ca/news/canada/saskatchewan/la-loche-supports-fatal-shooting-1.4654755?cmp=rss</link>
+      <guid isPermaLink="false">1.4654755</guid>
+      <pubDate>Wed, 9 May 2018 09:57:47 EDT</pubDate>
+                        <author>CBC News</author>
+      										      <category>News/Canada/Saskatchewan</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4508354.1517233078!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/space-selfie.jpg' alt='Space Selfie' width='460' title='On Tuesday, Jan. 23, 2018, Mark Vande Hei snapped his own portrait, better known as a “space-selfie,” during the first spacewalk of the year. NASA astronauts Vande Hei and crewmate Scott Tingle ventured outside the International Space Station to perform maintenance on the station&#39;s Canadarm2 robotic arm during a seven-hour and 24-minute spacewalk.' height='259' />                <p>The head of the U.S. space agency said today he wants to see Canadian astronauts walking on the moon before long — part of a first step toward the farther reaches of space.</p>
+                        <img src='https://i.cbc.ca/1.3783130.1475101316!/fileImage/httpImage/image.bmp_gen/derivatives/16x9_460/charlene-klyne.bmp' alt='Charlene Klyne' width='460' title='For medial reasons, Charlene Klyne has been unable to return home to La Loche, Sask., and says she hasn&#39;t received enough supports as she stays in Saskatoon. ' height='259' />                <p>More than two years after the fatal shootings that shocked the northern Saskatchewan village and surrounding communities, the survivors of the incident and the rest of the community still say there hasn't been enough done.</p>
         ]]>
       </description>
     </item>
-    <item cbc:type="story" cbc:deptid="2.634" cbc:syndicate="true">
-      <title><![CDATA[Heat waves from climate change may zap male fertility for many species]]></title>
-            <link>https://www.cbc.ca/news/technology/heat-climate-fertility-1.4903481?cmp=rss</link>
-      <guid isPermaLink="false">1.4903481</guid>
-      <pubDate>Tue, 13 Nov 2018 13:29:07 EST</pubDate>
-                        <author>Reuters</author>
-      							      <category>News/Technology &amp; Science</category>
+    <item cbc:type="story" cbc:deptid="2.654" cbc:syndicate="true">
+      <title><![CDATA[Water levels in N.B tumble, but could take weeks to return to normal]]></title>
+            <link>http://www.cbc.ca/news/canada/new-brunswick/flood-new-brunswick-2018-1.4654643?cmp=rss</link>
+      <guid isPermaLink="false">1.4654643</guid>
+      <pubDate>Wed, 9 May 2018 05:06:52 EDT</pubDate>
+                        <author>Elizabeth Fraser</author>
+      										      <category>News/Canada/New Brunswick</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4903542.1542131901!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/human-sperm.jpg' alt='Human sperm' width='460' title='Human sperm' height='259' />                <p>Would-be fathers have long been advised to wear boxer shorts and avoid  hot tubs, as heat could damage their reproductive chances. Now it turns out heat waves driven by climate change may be behind huge declines in insect numbers, scientists say.</p>
+                        <img src='https://i.cbc.ca/1.4654644.1525855946!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/flood.jpg' alt='flood' width='460' title='Water levels are starting to drop across the province, but the impact and devastation from this year&#39;s flood is far from over.' height='259' />                <p>Water levels are gradually dropping across New Brunswick, but it could take months before life for residents affected by severe flooding returns to normal.</p>
         ]]>
       </description>
     </item>
-    <item cbc:type="story" cbc:deptid="2.634" cbc:syndicate="true">
-      <title><![CDATA[Climate change will heat up cities and rural areas differently]]></title>
-            <link>https://www.cbc.ca/news/technology/climate-change-cities-urban-rural-1.4902234?cmp=rss</link>
-      <guid isPermaLink="false">1.4902234</guid>
-      <pubDate>Tue, 13 Nov 2018 04:00:00 EST</pubDate>
-                        <author>Emily Chung</author>
-      							      <category>News/Technology &amp; Science</category>
+    <item cbc:type="story" cbc:deptid="2.642" cbc:syndicate="true">
+      <title><![CDATA[Despite glitches, emergency alert testing will resume across Canada]]></title>
+            <link>http://www.cbc.ca/news/canada/calgary/emergency-alert-ready-testing-canada-1.4654888?cmp=rss</link>
+      <guid isPermaLink="false">1.4654888</guid>
+      <pubDate>Wed, 9 May 2018 10:50:36 EDT</pubDate>
+                        <author>The Canadian Press</author>
+      										      <category>News/Canada/Calgary</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4902250.1542056152!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/homebuilders-ipo.jpg' alt='HOMEBUILDERS-IPO' width='460' title='The sprawl of new housing is shown in the hills of San Marcos, California, January 30, 2013. Privately owned homebuilders are seizing on a housing supply crunch to tap the stock market as more Americans, buoyed by an improving economy, seek to buy their first home or move into bigger premises.  ' height='259' />                <p>Climate change will affect temperatures in urban and rural areas differently, suggests a new study that offers both good news and bad news.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.636" cbc:syndicate="true">
-      <title><![CDATA[Canada's key satellite system hit with another launch delay]]></title>
-            <link>https://www.cbc.ca/news/politics/satellite-constellation-radarsat-space-agency-canada-falcon-spacex-1.4895428?cmp=rss</link>
-      <guid isPermaLink="false">1.4895428</guid>
-      <pubDate>Tue, 13 Nov 2018 04:00:00 EST</pubDate>
-                        <author>Dean Beeby</author>
-      							      <category>News/Politics</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.4875934.1540385965!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/radarsat-constellation-mission.jpg' alt='RADARSAT Constellation Mission' width='460' title='The three RADARSAT Constellation Mission spacecraft will be evenly spaced on the same orbital plane at an altitude of 600 km.' height='259' />                <p>It began as a $600-million space project, with the first satellite scheduled for orbit in 2014. But the RADARSAT Constellation Mission has yet to get into space, and the budget already has hit more than $1 billion. Technical and launch delays have held up the completion of the project.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.637" cbc:syndicate="true">
-      <title><![CDATA[Distracted too often by your smartphone? This company thinks it can help]]></title>
-            <link>https://www.cbc.ca/news/business/canadian-smart-glasses-1.4901941?cmp=rss</link>
-      <guid isPermaLink="false">1.4901941</guid>
-      <pubDate>Tue, 13 Nov 2018 04:00:00 EST</pubDate>
-                        <author>Dianne Buckner</author>
-      							      <category>News/Business</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.4901949.1542041919!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/focals-smart-glasses.jpg' alt='Focals smart glasses' width='460' title='A model wears the Focals smart-glasses. Wearers can check texts and emails with the glasses, as well use clock, weather and mapping functions.' height='259' />                <p>A small Canadian company believes it can succeed where Google failed, and convince consumers they need smartglasses to replace their smartphones. Kitchener, Ont.-based North has invested millions of dollars and years of effort into designing Focals, which unlike Google's Glass product, look like regular eyeglasses.</p>
+                        <img src='https://i.cbc.ca/1.4098997.1502746386!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/smartphone-user.jpg' alt='smartphone user' width='460' title='' height='259' />                <p>Operators of Canada's new emergency alert system say they are learning from failures during tests earlier this week in Ontario and Quebec.</p>
         ]]>
       </description>
     </item>
     <item cbc:type="story" cbc:deptid="2.662" cbc:syndicate="true">
-      <title><![CDATA[High-tech meets high-fashion: Ontario company may finally win eyewear technology race]]></title>
-            <link>https://www.cbc.ca/news/canada/toronto/high-tech-meets-high-fashion-ontario-company-may-finally-win-eyewear-technology-race-1.4902395?cmp=rss</link>
-      <guid isPermaLink="false">1.4902395</guid>
-      <pubDate>Tue, 13 Nov 2018 09:00:00 EST</pubDate>
-                        <author>Chris Glover</author>
+      <title><![CDATA[Vote Compass: Compare your views to party platforms for the 2018 Ontario election]]></title>
+            <link>http://www.cbc.ca/news/canada/toronto/vote-compass-compare-your-views-to-party-platforms-for-the-2018-ontario-election-1.4654141?cmp=rss</link>
+      <guid isPermaLink="false">1.4654141</guid>
+      <pubDate>Wed, 9 May 2018 05:00:32 EDT</pubDate>
+                        <author>CBC News</author>
       										      <category>News/Canada/Toronto</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4902402.1542064268!/fileImage/httpImage/image.jpeg_gen/derivatives/16x9_460/focals.jpeg' alt='Focals' width='460' title='Focals made by North Inc., which retails at roughly $1,000, leverages the “magic” of technology with a hidden holographic display that projects images about an arms length in front of your eyes. ' height='259' />                <p>An Ontario tech start-up thinks it has the foresight to succeed where giant international technology companies have stumbled. North Inc., which is a Waterloo technology firm, says it has created high-tech glasses that focus on high-fashion.</p>
+                        <img src='https://i.cbc.ca/1.4654407.1525819438!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/ontario-leaders-ford-wynne-horwath-schreiner.jpg' alt='Ontario leaders Ford, Wynne, Horwath, Schreiner' width='460' title='CBC&#39;s Vote Compass lets you see how your views align with the party platforms.' height='259' />                <p>If you’re curious about how your views on campaign issues line up with the platforms of Ontario’s major parties, you’re in luck. CBC’s Vote Compass is back for the 2018 Ontario election.</p>
         ]]>
       </description>
     </item>
-    <item cbc:type="story" cbc:deptid="2.637" cbc:syndicate="false">
-      <title><![CDATA[Why Toronto won by losing its bid for Amazon's new headquarters]]></title>
-            <link>https://www.cbc.ca/news/business/toronto-better-off-without-amazon-hq2-1.4899528?cmp=rss</link>
-      <guid isPermaLink="false">1.4899528</guid>
-      <pubDate>Tue, 13 Nov 2018 00:28:54 EST</pubDate>
-                        <author>Jacqueline Hansen</author>
-      							      <category>News/Business</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.4899538.1541789623!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_460/amazon-hq2-20180404.jpg' alt='Amazon HQ2 20180404' width='460' title='Fireworks explode over the Toronto skyline, during the opening ceremonies for the Pan Am Games, Friday, July 10, 2015. The quick-to-Tweet American president&#39;s recent flurry of posts attacking Amazon.com raises the political stakes in the tech titan&#39;s consideration of Toronto, the only non-American city shortlisted, for its second headquarters. THE CANADIAN PRESS/AP-Rebecca Blackwell' height='259' />                <p>Toronto’s bid for Amazon’s HQ2 fell short, but some say the city may be better off without the American giant.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.655" cbc:syndicate="true">
-      <title><![CDATA[New weather station in Haines Pass starts broadcasting]]></title>
-            <link>https://www.cbc.ca/news/canada/north/new-weather-station-haines-pass-1.4900417?cmp=rss</link>
-      <guid isPermaLink="false">1.4900417</guid>
-      <pubDate>Tue, 13 Nov 2018 09:00:00 EST</pubDate>
-                        <author>Philippe Morin</author>
-      										      <category>News/Canada/North</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.4900418.1541809556!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_460/weather-station.JPG' alt='Weather station' width='460' title='Volunteers from the Yukon Avalanche Association and the Haines Avalanche Center installed the station which is the first in the Haines Pass. It&#39;s already broadcasting weather data to the internet. ' height='259' />                <p>A new weather station has been installed and is transmitting weather data from the Haines Pass. It's something that could potentially save lives, according to the Yukon Avalanche Association.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="episode" cbc:deptid="2.9709" cbc:syndicate="true">
-      <title><![CDATA[Google, Alphabet and the fight over a controversial 'smart city' in Toronto]]></title>
-            <link>https://www.cbc.ca/radio/frontburner/google-alphabet-and-the-fight-over-a-controversial-smart-city-in-toronto-1.4901508?cmp=rss</link>
-      <guid isPermaLink="false">1.4901508</guid>
-      <pubDate>Mon, 12 Nov 2018 08:00:14 EST</pubDate>
+    <item cbc:type="story" cbc:deptid="2.636" cbc:syndicate="true">
+      <title><![CDATA[Trudeau to offer formal apology in Commons for fate of Jewish refugee ship MS St. Louis]]></title>
+            <link>http://www.cbc.ca/news/politics/trudeau-apology-st-louis-1.4654516?cmp=rss</link>
+      <guid isPermaLink="false">1.4654516</guid>
+      <pubDate>Tue, 8 May 2018 20:50:21 EDT</pubDate>
                         <author>CBC News</author>
-      							      <category>Radio/Front Burner</category>
+      							      <category>News/Politics</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4789296.1534525583!/fileImage/httpImage/image.png_gen/derivatives/16x9_460/sidewalk-toronto.png' alt='Sidewalk Toronto' width='460' title='Sidewalk Labs wants to build pedestrian bridges, floating barges and outdoor projection screens in Quayside.' height='259' />                <p>On CBC's new daily podcast Front Burner, technology reporter Matthew Braga explains Sidewalk Toronto's plan to create a futuristic neighbourhood in downtown Toronto and why critics are concerned about privacy, intellectual property rights and data collection.</p>
+                        <img src='https://i.cbc.ca/1.3852219.1511916148!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/the-german-girl-book.jpg' alt='The German Girl - Book' width='460' title='Jewish refugees aboard the MS St. Louis attempt to communicate with friends and relatives in Cuba, who were permitted to approach the docked vessel in small boats, June 3, 1939.' height='259' />                <p>Prime Minister Justin Trudeau will deliver another official apology in the House of Commons, this time over the fate of the MS St. Louis.</p>
         ]]>
       </description>
     </item>
-    <item cbc:type="story" cbc:deptid="2.634" cbc:syndicate="true">
-      <title><![CDATA[Scientists are redefining the kilogram]]></title>
-            <link>https://www.cbc.ca/news/technology/kilogram-definition-1.4901809?cmp=rss</link>
-      <guid isPermaLink="false">1.4901809</guid>
-      <pubDate>Mon, 12 Nov 2018 10:16:06 EST</pubDate>
-                        <author>Reuters</author>
-      							      <category>News/Technology &amp; Science</category>
+    <item cbc:type="story" cbc:deptid="2.632" cbc:syndicate="true">
+      <title><![CDATA[Pediatricians get guidance on children's gender diversity to help answer parents' questions]]></title>
+            <link>http://www.cbc.ca/news/health/gender-diversity-pediatricians-1.4654826?cmp=rss</link>
+      <guid isPermaLink="false">1.4654826</guid>
+      <pubDate>Wed, 9 May 2018 10:05:40 EDT</pubDate>
+                        <author>Sheryl Ubelacker </author>
+      							      <category>News/Health</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4901842.1542035189!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_460/international-prototype-kilogram-replica.JPG' alt='International prototype kilogram replica' width='460' title='A replica of the prototype of the kilogram at the Cité des Sciences et de l’Industrie, Paris, France.' height='259' />                <p>Scientists are updating the definition of the kilogram, after years of nursing a sometimes dusty cylinder of metal in a vault outside Paris as the global reference for modern mass.</p>
+                        <img src='https://i.cbc.ca/1.4462216.1513958696!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/toy-trucks.jpg' alt='Toy trucks' width='460' title='Toy trucks in different colours.' height='259' />                <p>A new online resource will help pediatricians answer common questions from parents relating to children's gender identity.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.664" cbc:syndicate="true">
+      <title><![CDATA[Bob Elliott's Baseball: James Paxton's no-hitter thrills family and friends]]></title>
+            <link>http://www.cbc.ca/sports/baseball/mlb/james-paxton-no-hitter-bob-elliott-1.4654816?cmp=rss</link>
+      <guid isPermaLink="false">1.4654816</guid>
+      <pubDate>Wed, 9 May 2018 10:08:59 EDT</pubDate>
+                        <author>Bob Elliott</author>
+      										      <category>Sports/Baseball/MLB</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4654856.1525873145!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/paxton-james-2018-0508-1180.jpg' alt='paxton-james-2018-0508-1180' width='460' title='TORONTO, ON - MAY 8: James Paxton #65 of the Seattle Mariners is congratulated by Mike Zunino #3 and teammates after throwing a no-hitter during MLB game action against the Toronto Blue Jays at Rogers Centre on May 8, 2018 in Toronto, Canada. (Photo by Tom Szczerbowski/Getty Images)' height='259' />                <p>James Paxton became the first Canadian to pitch a no-hitter in Canada when he blanked the Toronto Blue Jays on Tuesday night. Veteran baseball writer Bob Elliott gives us a different perspective on Paxton's big night with a look at it through the eye of different people in the Mariners pitcher's orbit.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.636" cbc:syndicate="true">
+      <title><![CDATA[Summer jobs program shows 'totalitarian' tendency: ex-religious freedom envoy]]></title>
+            <link>http://www.cbc.ca/news/politics/summer-job-program-religious-1.4654706?cmp=rss</link>
+      <guid isPermaLink="false">1.4654706</guid>
+      <pubDate>Wed, 9 May 2018 07:45:24 EDT</pubDate>
+                        <author>Andy Blatchford</author>
+      							      <category>News/Politics</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.2788644.1412594792!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_460/andrew-bennett-religious-freedom-ambassador.jpg' alt='Andrew Bennett - Religious Freedom Ambassador' width='460' title='Andrew Bennett, Canada&#39;s religious freedom ambassador,  speaks with the Canadian Press during an interview in his office Wednesday October 1, 2014 in Ottawa. Bennett is bound for Ukraine and says Russian President Vladimir Putin is orchestrating the persecution of Orthodox Christians, Catholics and Muslim Tatars.' height='259' />                <p>Canada's former religious freedom ambassador says the Trudeau government is displaying "totalitarian" tendencies with its controversial changes to the student summer jobs program.</p>
         ]]>
       </description>
     </item>
     <item cbc:type="story" cbc:deptid="2.656" cbc:syndicate="true">
-      <title><![CDATA[Only 411 North Atlantic right whales left, says new report]]></title>
-            <link>https://www.cbc.ca/news/canada/nova-scotia/north-atlantic-right-whale-population-down-411-report-1.4902075?cmp=rss</link>
-      <guid isPermaLink="false">1.4902075</guid>
-      <pubDate>Mon, 12 Nov 2018 15:11:50 EST</pubDate>
-                        <author>Emma Davie</author>
+      <title><![CDATA[The fight over the value of Alexander Graham Bell's former estate]]></title>
+            <link>http://www.cbc.ca/news/canada/nova-scotia/beinn-bhreagh-assessment-appeal-1.4652174?cmp=rss</link>
+      <guid isPermaLink="false">1.4652174</guid>
+      <pubDate>Wed, 9 May 2018 04:30:00 EDT</pubDate>
+                        <author>Tom Ayers</author>
       										      <category>News/Canada/Nova Scotia</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4683681.1527690579!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/right-whales.jpg' alt='right whales' width='460' title='To date 27 North Atlantic right whales have been spotted by observers who are making daily flights over 460,000 square kilometres of ocean as part of the marine mammal surveillance program.' height='259' />                <p>On Friday, the North Atlantic Right Whale Consortium released its 2018 report card for the endangered species. There are just 411 left.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.652" cbc:syndicate="true">
-      <title><![CDATA[10-year-old Montrealer finds spider never before seen in Quebec]]></title>
-            <link>https://www.cbc.ca/news/canada/montreal/10-year-old-montrealer-finds-spider-never-before-seen-in-quebec-1.4901849?cmp=rss</link>
-      <guid isPermaLink="false">1.4901849</guid>
-      <pubDate>Mon, 12 Nov 2018 14:55:09 EST</pubDate>
-                        <author>CBC News</author>
-      										      <category>News/Canada/Montreal</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.4902062.1542052384!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/alessandra-nicolaescu.jpg' alt='Alessandra Nicolaescu' width='460' title='Fifth grader Alessandra Nicolaescu found the spider in a green alleyway behind her school. ' height='259' />                <p>Arachnologist Pierre Paquin says the Trachelas tranquillus found in an alleyway behind a school in Rosemont could have hitched a ride with humans from somewhere south of the border.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.655" cbc:syndicate="true">
-      <title><![CDATA['So many bears': Draft plan says Nunavut polar bear numbers unsafe]]></title>
-            <link>https://www.cbc.ca/news/canada/north/too-many-polar-bears-1.4901910?cmp=rss</link>
-      <guid isPermaLink="false">1.4901910</guid>
-      <pubDate>Mon, 12 Nov 2018 13:02:36 EST</pubDate>
-                        <author>The Canadian Press</author>
-      										      <category>News/Canada/North</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.4901930.1542040553!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_460/too-many-polar-bears-20181112.jpg' alt='Too Many Polar Bears 20181112' width='460' title='Inuit hunters, left to right, Meeka Mike, Lew Philip and Joshua Kango skin a polar bear on the ice as the sun sets during the traditional hunt on Frobisher Bay near Tonglait, Nunavut on February 2, 2003. There are too many polar bears in parts of Nunavut and climate change hasn&#39;t yet affected any of them, says a draft management plan from the territorial government that contradicts much of conventional scientific thinking. The proposed plan -- which is to go to public hearings in Iqaluit on Tuesday -- says that growing bear numbers are increasingly jeopardizing public safety and it&#39;s time Inuit knowledge drove management policy. THE CANADIAN PRESS/Kevin Frayer' height='259' />                <p>There are too many polar bears in parts of Nunavut and climate change hasn't yet affected any of them, says a draft management plan from the territorial government that contradicts much of conventional scientific thinking.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.657" cbc:syndicate="true">
-      <title><![CDATA[Ontario's beech trees are facing a slow demise. Here's why]]></title>
-            <link>https://www.cbc.ca/news/canada/ottawa/beach-bark-disease-tree-death-1.4900548?cmp=rss</link>
-      <guid isPermaLink="false">1.4900548</guid>
-      <pubDate>Mon, 12 Nov 2018 04:00:00 EST</pubDate>
-                        <author>CBC News</author>
-      										      <category>News/Canada/Ottawa</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.4900549.1541820550!/fileImage/httpImage/image.PNG_gen/derivatives/16x9_460/beech-bark-disease.PNG' alt='Beech Bark disease ' width='460' title='The disease begins with an insect that allows a fungus to take hold in the tree, slowly killing it. ' height='259' />                <p>The province's beech trees are slowly being consumed by a disease that's been on a steady march through the province for decades, experts say.</p>
-        ]]>
-      </description>
-    </item>
-    <item cbc:type="story" cbc:deptid="2.641" cbc:syndicate="true">
-      <title><![CDATA[ Wait! Don't toss that bread! Let's make beer]]></title>
-            <link>https://www.cbc.ca/news/canada/british-columbia/bread-beer-yum-1.4898448?cmp=rss</link>
-      <guid isPermaLink="false">1.4898448</guid>
-      <pubDate>Mon, 12 Nov 2018 13:00:00 EST</pubDate>
-                        <author>Matt Humphrey</author>
-      										      <category>News/Canada/British Columbia</category>
-      <description>
-        <![CDATA[
-                        <img src='https://i.cbc.ca/1.4898472.1541731082!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_460/small-block-brewery.JPG' alt='Small Block Brewery' width='460' title='Small Block Brewery is using stale, donated bread to brew a successfully selling beer.' height='259' />                <p>In an effort to reduce landfill waste — and also brew a tasty beverage — a Vancouver Island project is using old bread to make beer.</p>
+                        <img src='https://i.cbc.ca/1.4652238.1525822261!/fileImage/httpImage/image.jpeg_gen/derivatives/16x9_460/beinn-bhreagh-2.jpeg' alt='Beinn Bhreagh 2' width='460' title='Descendants of Alexander Graham Bell are appealing the assessment value of Beinn Bhreagh, the 125-year-old estate Bell had built in Baddeck.' height='259' />                <p>Alexander Graham Bell's descendants are appealing the assessment value of the telephone inventor's Baddeck, N.S., estate in an attempt to cut their tax bill in half.</p>
         ]]>
       </description>
     </item>
     <item cbc:type="story" cbc:deptid="2.4826" cbc:syndicate="true">
-      <title><![CDATA[Cottage country conflict over wild rice leads to years of rising tensions]]></title>
-            <link>https://www.cbc.ca/news/indigenous/kawartha-lakes-pigeon-lake-wild-rice-dispute-1.4894495?cmp=rss</link>
-      <guid isPermaLink="false">1.4894495</guid>
-      <pubDate>Mon, 12 Nov 2018 04:00:00 EST</pubDate>
-                        <author>Rhiannon Johnson</author>
+      <title><![CDATA[Mohawk man files human rights complaint against Ontario lottery ticket regulator over licence denial]]></title>
+            <link>http://www.cbc.ca/news/indigenous/cornwall-human-rights-complaint-lottery-ticket-licence-1.4654223?cmp=rss</link>
+      <guid isPermaLink="false">1.4654223</guid>
+      <pubDate>Tue, 8 May 2018 19:33:01 EDT</pubDate>
+                        <author>Jorge Barrera</author>
       							      <category>News/Indigenous</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4897352.1541797130!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_460/ennismore-meeting.JPG' alt='Ennismore meeting' width='460' title='The meeting at the Ennismore community centre was packed with hundred of people and many more were turned away at the door. ' height='259' />                <p>A long-simmering dispute over wild rice led people from local First Nations and lakeside communities to pack a community hall in the Kawartha Lakes area of Ontario last week.</p>
+                        <img src='https://i.cbc.ca/1.4654255.1525820294!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/christopher-rockwell.jpg' alt='Christopher Rockwell' width='460' title='Christopher Rockwell stands in front of his Four Leaf Convenience store in Cornwall, Ont. He says he went out of business after being rejected for a licence to sell lottery tickets.' height='259' />                <p>An Akwesasne Mohawk man says Ontario's gaming regulator discriminated against him based on race when they decided to reject his application for a licence to sell lottery tickets at his corner store.</p>
         ]]>
       </description>
     </item>
-    <item cbc:type="story" cbc:deptid="2.634" cbc:syndicate="true">
-      <title><![CDATA['Troubling allegations' prompt Health Canada review of studies used to approve popular weed-killer]]></title>
-            <link>https://www.cbc.ca/news/technology/monsanto-roundup-health-canada-1.4896311?cmp=rss</link>
-      <guid isPermaLink="false">1.4896311</guid>
-      <pubDate>Sun, 11 Nov 2018 04:00:00 EST</pubDate>
-                        <author>Gil Shochat</author>
-      							      <category>News/Technology &amp; Science</category>
+    <item cbc:type="story" cbc:deptid="2.662" cbc:syndicate="true">
+      <title><![CDATA[Doug Ford looking into why actors were hired as PC supporters at Ontario leaders' debate]]></title>
+            <link>http://www.cbc.ca/news/canada/toronto/doug-ford-debate-protesters-1.4653301?cmp=rss</link>
+      <guid isPermaLink="false">1.4653301</guid>
+      <pubDate>Tue, 8 May 2018 11:47:18 EDT</pubDate>
+                        <author>CBC News</author>
+      										      <category>News/Canada/Toronto</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4896312.1541629029!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/hl-monsanto-papers-show-agrichemical-giant-influenced-scientific-papers-on-roundup-environmentalists-say-image-1.jpg' alt='HL: Monsanto Papers show agrichemical giant influenced scientific papers on Roundup, environmentalists say Image 1' width='460' title='' height='259' />                <p>Health Canada says in light of "troubling allegations," its scientists are reviewing hundreds of studies used during the approval process for glyphosate, the active ingredient in Canada's most popular herbicide, Roundup.</p>
+                        <img src='https://i.cbc.ca/1.4653309.1525793115!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/ont-elxn-first-debate-20180507.jpg' alt='Ont Elxn First Debate 20180507' width='460' title='Ontario PC supporters gather ahead of the first televised leaders&#39; debate in Toronto on Monday. PC leader Doug Ford says' height='259' />                <p>PC Leader Doug Ford told reporters he's looking into why actors were paid $75 to be part of the crowd at the Ontario leaders' debate Monday night.</p>
         ]]>
       </description>
     </item>
-    <item cbc:type="story" cbc:deptid="2.656" cbc:syndicate="true">
-      <title><![CDATA[How a hole drilled by Canadians may have led to a baby boom in rural Iceland]]></title>
-            <link>https://www.cbc.ca/news/canada/nova-scotia/dalhousie-iceland-drilling-project-1.4897685?cmp=rss</link>
-      <guid isPermaLink="false">1.4897685</guid>
-      <pubDate>Mon, 12 Nov 2018 05:00:00 EST</pubDate>
-                        <author>Frances Willick</author>
-      										      <category>News/Canada/Nova Scotia</category>
+    <item cbc:type="story" cbc:deptid="2.662" cbc:syndicate="true">
+      <title><![CDATA[Prince Harry, Meghan Markle are getting a royal wedding coin in their honour]]></title>
+            <link>http://www.cbc.ca/news/canada/toronto/royal-canadian-mint-royal-wedding-coin-1.4654745?cmp=rss</link>
+      <guid isPermaLink="false">1.4654745</guid>
+      <pubDate>Wed, 9 May 2018 08:50:28 EDT</pubDate>
+                        <author>CBC News</author>
+      										      <category>News/Canada/Toronto</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4898696.1541774506!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/iceland-drill-hole.jpg' alt='Iceland drill hole' width='460' title='In 1978, an international group of researchers drilled a hole nearly two kilometres into the ground in eastern Iceland as part of a mission to understand the oceanic crust.' height='259' />                <p>Locals in Reydarfjordur still remember the 1978 drilling project, but not so much for its geological findings.</p>
+                        <img src='https://i.cbc.ca/1.4655018.1525882825!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/royal-canadian-mint-coin.jpg' alt='Royal Canadian Mint coin' width='460' title='Prince Harry and Meghan Markle, who are set to marry May 19, are being honoured with a new silver coin from the Royal Canadian Mint. ' height='259' />                <p>A special silver coin released today honours the May 19 nuptials of Prince Harry and Meghan Markle.</p>
         ]]>
       </description>
     </item>
-    <item cbc:type="story" cbc:deptid="2.633" cbc:syndicate="true">
-      <title><![CDATA[Northern California wildfire now deadliest in state history]]></title>
-            <link>https://www.cbc.ca/news/world/california-wildfires-1.4901303?cmp=rss</link>
-      <guid isPermaLink="false">1.4901303</guid>
-      <pubDate>Sun, 11 Nov 2018 14:54:00 EST</pubDate>
-                        <author>The Associated Press</author>
-      							      <category>News/World</category>
+    <item cbc:type="story" cbc:deptid="2.649" cbc:syndicate="true">
+      <title><![CDATA[Virus that has contributed to 'mass mortality' in reptiles confirmed in Canadian turtle for 1st time]]></title>
+            <link>http://www.cbc.ca/news/canada/hamilton/ranavirus-snapping-turtle-canada-1.4653798?cmp=rss</link>
+      <guid isPermaLink="false">1.4653798</guid>
+      <pubDate>Tue, 8 May 2018 15:43:26 EDT</pubDate>
+                        <author>Dan Taekema</author>
+      										      <category>News/Canada/Hamilton</category>
       <description>
         <![CDATA[
-                        <img src='https://i.cbc.ca/1.4902562.1542078643!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/california-wildfires.jpg' alt='California Wildfires' width='460' title='Shawn Slack rests after felling trees burned in the Camp Fire, Monday, Nov. 12, 2018, in Paradise, Calif. ' height='259' />                <p>Experts in identifying human remains joined California police and firefighters on Monday in the grim task of sifting through the charred debris of homes destroyed in the most devastating wildfire in state history, searching for hundreds of missing people.</p>
+                        <img src='https://i.cbc.ca/1.4653918.1525811284!/fileImage/httpImage/image.jpeg_gen/derivatives/16x9_460/ranavirus-snapping-turtle.jpeg' alt='Ranavirus, snapping turtle' width='460' title='Scientists have confirmed the first case of ranavirus in a Canadian reptile after an infected snapping turtle was found at Cootes Paradise in Hamilton last year.' height='259' />                <p>The Ranavirus virus has been found in a turtle in Hamilton's Cootes Paradise wetland. It generally leads to organ failure and death within four weeks.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.664" cbc:syndicate="true">
+      <title><![CDATA[Toronto Blue Jays closer Roberto Osuna charged with assault]]></title>
+            <link>http://www.cbc.ca/sports/baseball/mlb/jays-closer-roberto-osuna-charged-with-assault-1.4653602?cmp=rss</link>
+      <guid isPermaLink="false">1.4653602</guid>
+      <pubDate>Tue, 8 May 2018 13:31:11 EDT</pubDate>
+                        <author>CBC Sports</author>
+      										      <category>Sports/Baseball/MLB</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4653613.1525801334!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/100002879.jpg' alt='100002879' width='460' title='Toronto Blue Jays closer Roberto Osuna is scheduled to appear in court June 18 following an assault charge on Tuesday.' height='259' />                <p>Toronto Blue Jays closer Roberto Osuna was arrested and charged Tuesday morning with assault. The 23-year-old right-handed pitcher was released and is scheduled to appear in court on June 18. He has been placed on administrative leave by Major League Baseball.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.636" cbc:syndicate="true">
+      <title><![CDATA[Brad Trost loses bid to sue Conservative Party over leak of secret members' list]]></title>
+            <link>http://www.cbc.ca/news/politics/trost-legal-fight-1.4653464?cmp=rss</link>
+      <guid isPermaLink="false">1.4653464</guid>
+      <pubDate>Tue, 8 May 2018 14:15:15 EDT</pubDate>
+                        <author>Kathleen Harris,Catherine Cullen</author>
+      							      <category>News/Politics</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.3954122.1485467982!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/conservative-leadership-debate-20161109.jpg' alt='Conservative Leadership Debate 20161109' width='460' title='Conservative leadership candidate Brad Trost speaks during the Conservative leadership debate in Saskatoon, Wednesday, November 9, 2016. ' height='259' />                <p>Longtime Conservative MP Brad Trost has lost his bid to sue the Conservative Party over what he called a "deliberate smear" during last year's leadership race.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.662" cbc:syndicate="true">
+      <title><![CDATA[They've lived on their farm for nearly 200 years — now a school board wants a chunk of it]]></title>
+            <link>http://www.cbc.ca/news/canada/toronto/they-ve-lived-on-their-farm-for-nearly-200-years-now-a-school-board-wants-a-chunk-of-it-1.4654000?cmp=rss</link>
+      <guid isPermaLink="false">1.4654000</guid>
+      <pubDate>Tue, 8 May 2018 18:13:00 EDT</pubDate>
+                        <author>Shanifa Nasser</author>
+      										      <category>News/Canada/Toronto</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4654001.1525809081!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/dave-mccann.jpg' alt='Dave McCann' width='460' title='Dave McCann
+' height='259' />                <p>David McCann's family has lived and worked the 200-acre plot of land in Halton Region for nearly two centuries, but a school board looking to build on his land is putting that life at risk.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.655" cbc:syndicate="true">
+      <title><![CDATA[Health Canada says delaying pot bill for more Indigenous consultation would leave kids vulnerable]]></title>
+            <link>http://www.cbc.ca/news/canada/north/health-canada-indigenous-cannabis-legalization-1.4653164?cmp=rss</link>
+      <guid isPermaLink="false">1.4653164</guid>
+      <pubDate>Tue, 8 May 2018 14:39:28 EDT</pubDate>
+                        <author>Katie Toth</author>
+      										      <category>News/Canada/North</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4546752.1519312947!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_460/cannabis-marijuana-industry-20180212.jpg' alt='Cannabis Marijuana Industry 20180212' width='460' title='Workers produce medical marijuana at Canopy Growth Corporation&#39;s Tweed facility in Smiths Falls, Ont., on Feb. 12, 2018.' height='259' />                <p>Delaying pot legalization won't change much, Health Canada says after senators urge for Indigenous voices to sit at the table.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.636" cbc:syndicate="true">
+      <title><![CDATA[Liberals nominate Stéphane Perrault as next chief electoral officer]]></title>
+            <link>http://www.cbc.ca/news/politics/liberals-chief-electoral-officer-1.4652777?cmp=rss</link>
+      <guid isPermaLink="false">1.4652777</guid>
+      <pubDate>Tue, 8 May 2018 15:33:58 EDT</pubDate>
+                        <author>Aaron Wherry</author>
+      							      <category>News/Politics</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4554874.1520950743!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_460/election-debates-20171130.jpg' alt='Election Debates 20171130' width='460' title='Stephane Perrault, the acting chief electoral officer, says Elections Canada must stay above the political fray and should not be perceived as being involved in anything that could influence the outcome of a campaign. A woman enters Maple High School in Vaughan, Ont., to cast her vote in the Canadian federal election on Monday, Oct. 19, 2015.' height='259' />                <p>Stéphane Perrault has been nominated by Prime Minister Justin Trudeau as Canada's next chief electoral officer. Perrault has been serving as the acting chief electoral officer since Marc Mayrand's departure at the end of 2016.</p>
+        ]]>
+      </description>
+    </item>
+    <item cbc:type="story" cbc:deptid="2.641" cbc:syndicate="true">
+      <title><![CDATA[Car-jacking suspect dead in police shooting at Departure Bay ferry terminal ]]></title>
+            <link>http://www.cbc.ca/news/canada/british-columbia/car-jacking-suspect-dead-in-police-shooting-at-departure-bay-ferry-terminal-1.4653742?cmp=rss</link>
+      <guid isPermaLink="false">1.4653742</guid>
+      <pubDate>Tue, 8 May 2018 14:31:17 EDT</pubDate>
+                        <author>Bethany Lindsay</author>
+      										      <category>News/Canada/British Columbia</category>
+      <description>
+        <![CDATA[
+                        <img src='https://i.cbc.ca/1.4654214.1525814573!/fileImage/httpImage/image.png_gen/derivatives/16x9_460/departure-bay-shooting.png' alt='Departure Bay shooting' width='460' title='A man is dead after police opened fire while attempting to arrest a car-jacking suspect at the Departure Bay ferry terminal in Nanaimo.' height='259' />                <p>A suspect in a car-jacking is dead after a police shooting at the Departure Bay ferry terminal in Nanaimo.</p>
         ]]>
       </description>
     </item>

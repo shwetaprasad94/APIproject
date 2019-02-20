@@ -31,13 +31,15 @@
 					// this.toppings = this.toppings + ', ' + newTopping;
 					this.toppings += ', ' + newTopping; // shortcut
 				}
-			},
+			}
 		};
 		
 		pizza.addTopping('tomato sauce');
 		pizza.addTopping('cheese');
+		// pizza.addCrust('multigrain');
 		
 		console.log('I will eat a pizza with ' + pizza.toppings );
+		// console.log('I will eat a pizza with ' + pizza.toppings + ' toppings and has this crust ' + pizza.crust );
 
 		//todo inclass: Add the addCrust method and add the crust property to the pizza object
 		/* pseudo code
@@ -47,16 +49,16 @@
 		*/
 
 		// SOLUTION
-		// pizza.addCrust = function addCrust(newCrust) {
-		// 		this.crust = newCrust;
-		// 	};
-		pizza.addCrust = (newCrust) => {
-			pizza.crust = newCrust;
+		// an immutable variable is an variable whose state cannot be modified after it is created
+		// pizza is a mutable variable, meaning the state may be changed
+		pizza.addCrust = function (newCrust) {
+			this.crust = newCrust;
 		};
-
 		pizza.addCrust('multigrain');
-
-		console.log('I will eat a pizza with ' + pizza.toppings + ' toppings and has this crust ' + pizza.crust );
+		console.log(
+			'I will eat a pizza with ' + pizza.toppings +
+			' toppings and has this crust ' + pizza.crust
+		);
 	</script>
 
 </body>

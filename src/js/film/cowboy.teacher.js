@@ -1,45 +1,22 @@
-/* global utils */
+function appendActor(actor) {
+  $('#actors').append(`<option>${actor.name}</option>`);
+}
 
-const cowboysDropdown = () => {
-  $.ajax({
-    url: 'cowboy.json',
-    success: (response) => {
-      $.each(response.movies, (indexMovie, movie) => {
-        $.each(movie.abridged_cast, (indexActor, actor) => {
-          $('#actors').append(`<option>${actor.name}</option>`);
-        });
-      });
-    },
-  });
-};
+function success(response) {
+  // response.movies[0].abridged_cast.forEach(actor => appendActor(actor));
 
-const cowboyHomework = () => {
-  $.ajax({
-    url: '../film/cowboy.json',
-    success: (response) => {
-      $.each(response.movies, (indexMovie, movie) => {
-        $.each(movie.abridged_cast, (indexActor, actor) => {
-          $.each(actor.characters, (indexCharacter, character) => {
-            $('#characters').append(`<option value="${actor.name}">${character}</option>`);
-          });
-        });
-      });
-    },
-    error: (x, xx, errorMessage) => {
-      utils.print('AJAX error', errorMessage);
-    },
+  response.movies.forEach((movie) => {
+    movie.abridged_cast.forEach(actor => appendActor(actor));
   });
+}
 
-  $('#characters').change(() => {
-    const actorName = $('#characters').val();
-    $('#actor').text(actorName);
-  });
-};
+function cowboysDropdown() {
+  $.ajax({ success, url: 'cowboy.json' });
+}
 
 // If Node.js then export as public
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
   module.exports = {
     cowboysDropdown,
-    cowboyHomework,
   };
 }

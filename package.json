@@ -5,12 +5,11 @@
   "main": "app-teacher.js",
   "scripts": {
     "build": "gulp build",
-    "build-react": "npx babel --watch public/jQuery/react/**.jsx --out-dir . --presets react-app/prod --silient",
     "dev": "gulp dev",
     "dev:student": "gulp dev:student",
     "lint": "gulp lint",
     "lintfix": "eslint --fix *.js src",
-    "start": "npm run build && node .",
+    "start": "node .",
     "start:student": "node app-student",
     "test": "gulp test"
   },
@@ -30,29 +29,29 @@
   },
   "homepage": "https://github.com/VanArts/course-files",
   "devDependencies": {
-    "eslint": "^5.4.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.12.0",
     "expect.js": "^0.3.1",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-develop-server": "^0.5.2",
-    "gulp-eslint": "^5.0.0",
-    "gulp-expect-file": "^1.0.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-expect-file": "0.0.7",
     "gulp-load-plugins": "^1.0.0-rc.1",
     "gulp-mocha": "^6.0.0",
     "htmlhint-stylish": "^1.0.3"
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2",
-    "body-parser": "^1.18.3",
     "dustjs-linkedin": "^2.7.5",
-    "express": "^4.16.4",
-    "hapi": "^17.5.4",
+    "hapi": "^17.5.1",
     "inert": "^5.0.1",
-    "lout": "^11.1.0",
-    "request": "^2.88.0",
-    "vision": "^5.4.0"
+    "instagram-node": "^0.5.8",
+    "lout": "^11.0.1",
+    "request": "^2.87.0",
+    "twit": "^2.2.10",
+    "vision": "^5.3.2",
+    "wreck": "^14.0.2",
+    "yql": "^1.0.2"
   }
 }

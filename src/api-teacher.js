@@ -1,15 +1,14 @@
 const https = require('https');
 const http = require('http');
+const Twit = require('twit');
+const wreck = require('wreck');
 
-const { print } = require('./js/utils');
+const credentials = require('../credentials.json');
+const { twitterTweets } = require('./js/twitter/filter');
 
-// normal simple function
-// const sum = (a, b) => { a + b };
+const logger = (...messages) => console.log(messages, new Date()); // eslint-disable-line no-console
 
-// keyword is a new variable, when undefined set to blank.
-// keyword is in an object with a parent property query
 const autocompleteHandler = ({ query: { keyword = '' } }) => {
-  // keyword is either blank or a string value
   const DELAY = 1500; // 1.5 sec
   const places = [];
 
@@ -60,13 +59,111 @@ const autocompleteHandler = ({ query: { keyword = '' } }) => {
   return new Promise(resolve => setTimeout(resolve, DELAY, { items }));
 };
 
-// Node.js rule, exports must in the root. Not inside a function or closure
 exports.autocompleteHandler = autocompleteHandler;
+
+const flickrJpgPath = (flickrResponse) => {
+  const paths = flickrResponse.photos.photo.map((photo) => {
+    const {
+      farm,
+      id,
+      secret,
+      server,
+    } = photo;
+
+    return `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}.jpg`;
+  });
+
+  return paths;
+};
+
+exports.flickrJpgPath = flickrJpgPath;
+
+const flickrGeoResults = (flickrResponse) => {
+  const jpgs = flickrJpgPath(flickrResponse);
+
+  return flickrResponse.photos.photo.map((photo, index) => {
+    const {
+      accuracy,
+      latitude,
+      longitude,
+    } = photo;
+
+    return {
+      accuracy,
+      latitude,
+      longitude,
+      path: jpgs[index],
+    };
+  });
+};
 
 exports.plugin = {
   name: 'api',
   version: '1.3.0',
   register: (server) => {
+    server.route({
+      method: 'GET',
+      path: '/api/twitter',
+      handler: () => new Promise((resolve) => {
+        const twit = new Twit({
+          consumer_key: credentials.twitter.consumer_key,
+          consumer_secret: credentials.twitter.consumer_secret,
+          access_token: credentials.twitter.access_token,
+          access_token_secret: credentials.twitter.access_token_secret,
+          timeout_ms: 60 * 1000, // optional HTTP request timeout to apply to all requests.
+          strictSSL: true, // optional - requires SSL certificates to be valid.
+        });
+
+        const params = { screen_name: 'vanarts' };
+        const GENERIC_TWITTER_ERROR = 'VanArts Twitter Timeline is unavailable';
+
+        try {
+          twit.get('statuses/user_timeline', params, (error, response) => {
+            if (error) { // server error
+              logger(
+                'Twitter API server error',
+                JSON.stringify(params),
+                JSON.stringify(error.statusCode),
+                JSON.stringify(response),
+              );
+
+              // change the error from developer to user facing message
+              resolve({ message: GENERIC_TWITTER_ERROR });
+              return;
+            }
+
+            resolve(twitterTweets(response));
+          });
+        } catch (error) { // syntax error
+          logger('Internal error before Twitter API', JSON.stringify(error));
+
+          resolve({ message: GENERIC_TWITTER_ERROR });
+        }
+      }),
+    });
+
+    server.route({
+      method: 'GET',
+      path: '/api/flickr',
+      handler: async (request) => {
+        // default query type is = vanarts 1km radius
+        let address = `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${credentials.flickr.api_key}&format=json&nojsoncallback=1&lat=49.282705&lon=-123.115358&radius=2`;
+        let transform = flickrJpgPath;
+        if (request.query.keyword) {
+          // keyword search with geo results
+          address = `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${credentials.flickr.api_key}&format=json&nojsoncallback=1&tags=${request.query.keyword}&has_geo=1&extras=geo`;
+          transform = flickrGeoResults;
+        }
+
+        try {
+          const { payload } = await wreck.get(address);
+          return { paths: transform(JSON.parse(payload)) };
+        } catch (error) {
+          return { error: error.message };
+        }
+      },
+    });
+
     server.route({
       method: 'GET',
       path: '/api/autocomplete',
@@ -84,8 +181,6 @@ exports.plugin = {
           cherry: 'red',
           durian: 'blue',
           eggplant: 'purple',
-          'fuji-apple': 'lightgreen',
-          grape: 'magenta',
         };
 
         return new Promise(resolve => setTimeout(resolve, DELAY, OUT));
@@ -118,12 +213,10 @@ exports.plugin = {
     server.route({
       method: 'GET',
       path: '/api/rss',
-      handler: (request, reply) => new Promise((resolve) => {
-        const url = request.query.url || 'https://www.cbc.ca/cmlink/rss-canada';
+      handler: (request, reply) => new Promise((resolve, reject) => {
+        const url = request.query.url || 'http://www.cbc.ca/cmlink/rss-canada';
         const isSSL = (url.substring(0, 5) === 'https');
         const httpRequest = (isSSL) ? https : http;
-
-        print(`Getting ${url} via ${isSSL ? 'https' : 'http'}`);
 
         httpRequest.get(url, (response) => {
           let body = '';
@@ -137,10 +230,10 @@ exports.plugin = {
               resolve(reply.response(body).type('application/xml'));
             });
           } else {
-            resolve(reply.response(`Service call failed with HTTP status code: ${response.statusCode}`));
+            reject(new URIError(`Service call failed with HTTP status code: ${response.statusCode}`));
           }
         }).on('error', (e) => {
-          resolve(reply.response(`Service call failed due to error: ${e.message}`));
+          reject(new URIError(`Service call failed due to error: ${e.message}`));
         });
       }),
     });

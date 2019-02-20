@@ -62,7 +62,7 @@
 	// window.onload = function () { // an anonymous function
 	// 	console.log('Load event - all the HTML in the document has rendered');
 	// };
-	$(window).on('load', () => { // an arrow function
+	$(window).on('load', function () { // an anonymous function
 		console.log('Load event - all the HTML in the document has rendered');
 	});
 	
@@ -106,9 +106,9 @@
 	// document.getElementById('keyboard').onkeyup = function () { console.log('Key Up'); };
 	// document.getElementById('keyboard').onkeypress = function () { console.log('Key Press'); };
 	$('#keyboard')
-		.keydown(() => { console.log('Key Down'); })
-		.keyup(() => { console.log('Key Up'); })
-		.keypress(() => { console.log('Key Press'); });
+		.keydown(function () { console.log('Key Down'); })
+		.keyup(function () { console.log('Key Up'); })
+		.keypress(function () { console.log('Key Press'); });
 	
 	// Down & Press occur on repetition
 	// Press only occurs when a character is added to HTML
@@ -120,7 +120,7 @@
 	// 	console.log('Submit');
 	// 	return false; // cancels form action; prevents form submission
 	// };
-	$('#submit').submit((event) => {
+	$('#submit').submit(function (event) {
 		console.log('Submit');
 		event.preventDefault(); // cancels form action; prevents form submission
 	});

@@ -1,30 +1,38 @@
-/* global utils */
+function appendRssNews(params) {
+  const {
+    $container,
+    description,
+    link,
+    title,
+  } = params;
+  $container.append(`<li><a href="${link}">${title}</a><p>${description}</p></li>`);
+}
 
-const newsHeadlines = () => {
-  // todo inclass
-  // gain access to XML via AJAX
-  $.ajax({
-    url: '/api/rss', // HTML page 1 --> Node backend /api/rss --> CBC RSS provider cbc.ca
-    success: (response) => {
-      const items = $(response).find('item');
-      // loop through items
-      items.each((index, item) => {
-        // <item>
-        //   <title attr="">...</title>
-        //   <link>...</link>
-        // </item>
-        const description = $(item).find('description').text();
-        const link = $(item).find('link').text();
-        const title = $(item).find('title').text();
+function parseRssNews(response) {
+  const $news = $('#news');
+  $(response).find('item').each((index, item) => {
+    const description = $(item).children('description').text();
+    const link = $(item).children('link').text();
+    const title = $(item).children('title').text();
 
-        // display title with link as hyperlink use HTML
-        const html = `<li><a href="${link}">${title}</a><br>${description}</li>`;
-        $('#news').append(html);
-      });
-    },
-    error: (a, b, errorMessage) => utils.print(errorMessage),
+    appendRssNews({
+      $container: $news,
+      description,
+      link,
+      title,
+    });
   });
-};
+}
+
+function newsHeadlines() {
+  $.ajax({
+    url: '/api/rss',
+    data: {
+      url: 'https://www.cbc.ca/cmlink/rss-canada-britishcolumbia',
+    },
+    success: parseRssNews,
+  });
+}
 
 // If Node.js then export as public
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {

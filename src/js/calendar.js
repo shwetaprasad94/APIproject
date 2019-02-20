@@ -61,15 +61,15 @@ function createCourseSchedule(courseTitle = 'Dan\'s class') {
 }
 
 function courseCalendar() {
-  const firstDateJq = new Date(2018, 8, 5); // Sep 5
+  const firstDateJq = new Date(2018, 2, 14); // Mar 14
   const courseJq = createCourseSchedule('jQuery')
     .setFirstClassDate(firstDateJq)
-    .setDaysBetweenClasses([7, 7, 7, 7, 14, 7, 7, 7, 7, 7, 7]);
+    .setDaysBetweenClasses([7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]);
 
-  const firstDateApi = new Date(2018, 10, 28); // Nov 28
+  const firstDateApi = new Date(2018, 5, 6); // Jun 6
   const courseApi = createCourseSchedule('API')
     .setFirstClassDate(firstDateApi)
-    .setDaysBetweenClasses([7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]);
+    .setDaysBetweenClasses([14, 3, 4, 7, 7, 7, 7, 7, 7, 7, 7]);
   const events = courseJq.getAllClasses().concat(courseApi.getAllClasses());
 
   $('#calendar').fullCalendar({
